@@ -1,0 +1,138 @@
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+h1.loginCss{
+    margin-left: 38%;
+    margin-bottom: 30px;
+}
+.titleCss{
+    height: 100px;
+    padding-top: 30px;
+    margin: 0;
+}
+a.aViewButtons{
+    text-decoration: none;   
+}
+.navbar{
+    margin-bottom: 0px;
+
+}
+.page-header{
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    border-bottom: transparent;
+}
+.btn{
+    border-radius: 0px;
+    margin-left: 10%;
+
+}
+.btn-group{
+    margin-left: 30%;
+
+}
+.form-group{
+
+    margin-bottom: 15px;
+    margin-left: 20%;
+    margin-right: 15%;
+    margin-top:30px;
+}
+.form-control{
+    display:inline;
+    width: 50%;
+
+}
+label{
+    display:inline;
+
+}
+#containerFluid{
+
+    padding-left:80px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+#loginContainer{
+    margin-top: 40px;
+    text-align: center;
+
+}
+#loginFormContainer{
+    margin-left: 25%;
+    margin-right: 25%;
+    border-style: solid;
+    border-color: black;
+
+}
+#MainContainerFluid{
+
+    padding-left:0;
+    padding-right:0;
+}
+#ButtonsContainers{
+
+    border-style: solid;
+    margin-left: 25%;
+    margin-top: 3%;
+    margin-right: 25%;
+    border-color: black;
+
+}
+#Title{
+
+    height: 100px;
+    background-color: #78ae4e;
+    border-bottom-style: solid;
+
+}
+#employerButton{
+
+    margin-left: 10px;
+}
+#studentButton{
+    margin-left: 15px;
+
+}
+#exampleInputEmail1{
+    display: inline;
+    width: 50%;
+    margin-left: 80px;
+}
+#exampleInputPassword1{
+    display: inline;
+    width: 50%;
+    margin-left: 80px;
+
+}
+.links{
+    display: inline-block;
+    margin-left: 0;
+}
+#buttonCreate{
+    margin-bottom: 3%;
+    margin-left: 49%;
+
+}
+#imageContainer{
+    margin-left: 200px;
+    margin-top: 30px;
+    position: absolute;
+}
+.glyphicon{
+    
+    font-size: 25px;
+}
+.footer {
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    background-color:#F8F8F8;
+    border-top:1px solid #E7E7E7;
+    text-align:center;
+}
+

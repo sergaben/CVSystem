@@ -1,0 +1,200 @@
+body {
+    font-family:Lato, sans-serif;
+}
+
+p {
+    padding-top:5px;
+    margin:0 20px 0 0;
+}
+
+h1.loginCss {
+    margin-left:35%;
+    margin-bottom:30px;
+}
+
+.panel-body {
+    padding:0;
+}
+
+.panel-group {
+    border-style:solid;
+}
+
+.row {
+    margin-left:0;
+    margin-right:0;
+}
+
+.navbar {
+    margin-bottom:0;
+    border-radius:0;
+    border:0;
+}
+
+.navbar-default {
+    background-color:#78ae4e;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color:#000;
+}
+
+.page-header {
+    margin-top:0;
+}
+
+.btn {
+    border-radius:0;
+    white-space:inherit;
+}
+
+.form-group {
+    margin:30px 15% 15px 20%;
+}
+
+.form-control {
+    display:inline;
+    width:50%;
+}
+
+label {
+    display:inline;
+}
+
+#mainTitle {
+    margin-top:3%;
+}
+
+.containerImg {
+    margin-left:80px;
+}
+
+.viewCV {
+    display:flex;
+    padding:15px;
+}
+
+.container-fluid {
+    padding-left:0;
+    margin-bottom:20px;
+    padding-right:0;
+}
+
+#containerFluidView {
+    padding-left:0;
+    margin-bottom:17.9%;
+    padding-right:0;
+}
+
+#loginContainer {
+    margin-top:40px;
+    text-align:center;
+}
+
+#loginFormContainer {
+    margin-left:25%;
+    margin-right:25%;
+    border-color:#000;
+    border-style:solid;
+}
+
+#MainContainerFluid {
+    padding-left:0;
+    padding-right:0;
+}
+
+#ButtonsContainers {
+    margin-left:25%;
+    margin-top:3%;
+    margin-right:25%;
+    border-color:#000;
+    border-style:solid;
+}
+
+#Title {
+    text-align:center;
+}
+#SubTitle{
+    
+    text-align: center;
+}
+#PasswordTitle {
+    padding-left:30%;
+    padding-bottom:20px;
+}
+
+#employerButton {
+    margin-left:10px;
+}
+
+#studentButton {
+    margin-left:15px;
+}
+
+#newUserLink {
+    margin-left:43%;
+}
+
+#buttonCreate {
+    margin-bottom:3%;
+    margin-left:49%;
+}
+
+#viewCenterPanel {
+    margin-left:35%;
+}
+
+.footer {
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    background-color:#F8F8F8;
+    border-top:1px solid #E7E7E7;
+    text-align:center;
+}
+
+ul.nav.navbar-nav.navbar-right {
+    font-size:large;
+}
+
+#navBar {
+    height:90px;
+}
+
+#displayPass {
+    margin-top:20px;
+    height:80px;
+    text-align:center;
+}
+
+#logoImage {
+    position:absolute;
+    top:20px;
+}
+
+a.aViewButtons,a.aLogout {
+    text-decoration:none;
+}
+
+#myNavbar,#navbar {
+    margin-top:20px;
+}
+
+#categoriesTitle,#viewTitle {
+    padding-bottom:20px;
+    text-align:center;
+}
+
+@media (max-width:768px){
+
+    img{
+        width:60px;
+        height:60px;
+    }
+    h1{font-size:27px;}
+    h2{ font-size:21px;}
+
+
+}
+

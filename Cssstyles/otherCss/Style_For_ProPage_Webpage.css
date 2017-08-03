@@ -1,0 +1,18 @@
+#containerFluid{
+
+    padding-left:80px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+#sample{
+
+    display: inline-block;
+    background-image: url(images/LoginPage.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 350px; 
+    height: 169px; 
+    margin-top: 20px;
+    display: inline-block;
+}
