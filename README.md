@@ -1,0 +1,1 @@
+To use this system, you have to have a web server and a database set up.
