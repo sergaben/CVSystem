@@ -42,7 +42,8 @@ if($_POST)
 //        {
 //            $invalidDetails;
 //        }
-        if(strcasecmp($_POST['username'],"sergio") and strcasecmp($_POST['password'],"sergio24")){
+        if($_POST['username'] == "sergio" and $_POST['password'] == "sergio24"){
+            echo "it is working";
             header("Location: ../Employer/EmployerCVpage.php");
         }
     } 
