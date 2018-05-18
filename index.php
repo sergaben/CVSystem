@@ -1,20 +1,20 @@
 <?php  
-    session_start();
-  if(isset($_SESSION['username'])){
-    
-    if($_SESSION['userType']==="S")
-    {
-        header("Location:Student/studentCVpage.php");
-    }
-    else if($_SESSION['userType']==="E")
-    {
-        header("Location:Employer/EmployerCVpage.php");
-    }
-    else if($_SESSION['userType']==="T")
-    {
-        header("Location:Staff/StaffCVpage.php");
-    }
-}
+//    session_start();
+//  if(isset($_SESSION['username'])){
+//
+//    if($_SESSION['userType']==="S")
+//    {
+//        header("Location:Student/studentCVpage.php");
+//    }
+//    else if($_SESSION['userType']==="E")
+//    {
+//        header("Location:Employer/EmployerCVpage.php");
+//    }
+//    else if($_SESSION['userType']==="T")
+//    {
+//        header("Location:Staff/StaffCVpage.php");
+//    }
+//}
     if($_POST) {
             
             $errors = array();
