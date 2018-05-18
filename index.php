@@ -35,14 +35,16 @@
            if(count($errors) == 0)
             {
                 
-                require_once 'phpscripts/login.php';
-               
-                $invalidDetails = loginStudent($_POST['username'],$_POST['password']);
-                if(is_string($invalidDetails))
-                {
-                    $invalidDetails;
+                //require_once 'phpscripts/login.php';
+                if(strcasecmp($_POST['username'],"sergio") and strcasecmp($_POST['password'],"sergio24")){
+                    header("Location: Student/studentCVpage.php");
                 }
-                
+//                $invalidDetails = loginStudent($_POST['username'],$_POST['password']);
+//                if(is_string($invalidDetails))
+//                {
+//                    $invalidDetails;
+//                }
+//
                 
             } 
            
