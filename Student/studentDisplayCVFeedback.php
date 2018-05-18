@@ -1,16 +1,16 @@
 <?php
-session_start();
-if($_SESSION['userType']!="S")
-{
-
-    header("Location:../index.php");
-}
-else
-{   
-
-    $username= $_SESSION['username'];
-
-}
+//session_start();
+//if($_SESSION['userType']!="S")
+//{
+//
+//    header("Location:../index.php");
+//}
+//else
+//{
+//
+//    $username= $_SESSION['username'];
+//
+//}
 
 //        if(is_string($reaction))
 //        {

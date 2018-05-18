@@ -1,19 +1,19 @@
 
 <?php
 echo "<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>";
-session_start();
-
-if($_SESSION['userType']!="T")
-{
-
-    header("Location:../index.php");
-}
-else
-{   
-
-    $username= $_SESSION['username'];
-
-}
+//session_start();
+//
+//if($_SESSION['userType']!="T")
+//{
+//
+//    header("Location:../index.php");
+//}
+//else
+//{
+//
+//    $username= $_SESSION['username'];
+//
+//}
 if($_POST){
     $errors = array();
     if(empty($_POST['feedback']))

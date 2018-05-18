@@ -1,18 +1,18 @@
 <?php
 echo "<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>";
-session_start();
-if($_SESSION['userType']!="E")
-{
-
-    header("Location:../index.php");
-}
-else
-{   
-
-    $username = $_SESSION['username'];
-
-
-}
+//session_start();
+//if($_SESSION['userType']!="E")
+//{
+//
+//    header("Location:../index.php");
+//}
+//else
+//{
+//
+//    $username = $_SESSION['username'];
+//
+//
+//}
 //if($_POST)
 //{
 //        include '../phpscripts/download.php';

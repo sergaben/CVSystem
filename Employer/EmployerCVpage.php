@@ -1,17 +1,17 @@
 <?php
-session_start();
-if($_SESSION['userType']!="E")
-{
-
-    header("Location:../index.php");
-}
-else
-{   
-
-    $username = $_SESSION['username'];
-
-
-}
+//session_start();
+//if($_SESSION['userType']!="E")
+//{
+//
+//    header("Location:../index.php");
+//}
+//else
+//{
+//
+//    $username = $_SESSION['username'];
+//
+//
+//}
 
 session_write_close();
 
