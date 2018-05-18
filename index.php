@@ -99,7 +99,9 @@
 
 
         <div class="container-fluid">
+            <div>
 
+            </div>
             <div class="row" id="mainTitle">
                 <div class="col-xs-12" >
                     <div class="kLogo">
